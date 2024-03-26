@@ -1,0 +1,14 @@
+{pokemon.id}
+{pokemon.sprites.other.dream_world.front_default}
+{`Pokemon ${pokemon?.name}`}
+{primerMayuscula(pokemon.name)}
+{type.type.name}
+{pokemon.height}
+{pokemon.weight}
+
+HP {pokemon.stats[0].base_stat}
+Attack {pokemon.stats[1].base_stat}
+Defense {pokemon.stats[2].base_stat}
+Special-attack {pokemon.stats[3].base_stat}
+Special-defense {pokemon.stats[4].base_stat}
+Speed {pokemon.stats[5].base_stat}
